@@ -18,7 +18,5 @@ Example usage here:
 ## Installation instructions
 build the gem, and install it
 
-`
-gem build rbhex.gemspec
-gem install rbhex-0.0.0.gem
-`
+    gem build rbhex.gemspec
+    gem install rbhex-0.0.0.gem
