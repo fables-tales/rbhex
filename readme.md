@@ -4,6 +4,7 @@ this is a simple gem for doing hex and binary conversion in ruby
 because the built in stuff seems to suck.
 
 Example usage here:
+
     >> require "rbhex"
     => true
     >> RbHex::byte_array_from_hex_string("10")
