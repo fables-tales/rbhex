@@ -21,3 +21,9 @@ build the gem, and install it
 
     gem build rbhex.gemspec
     gem install rbhex-0.0.0.gem
+
+## Super hardcore developer instructions
+
+1. get rspec: `gem install rspec`
+2. run rspec: `rspec`
+3. marvel as the tests all pass
