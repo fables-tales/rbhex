@@ -27,3 +27,8 @@ build the gem, and install it
 1. get rspec: `gem install rspec`
 2. run rspec: `rspec`
 3. marvel as the tests all pass
+
+If you want to contribute just send me a github pull request. I'm not going to
+place any arbitrary restrictions on what you do in your pull request because
+that sucks, but if you write some rspec tests to demonstrate that your code
+works I'm much more likely to accept your patch quickly.
