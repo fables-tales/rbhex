@@ -31,7 +31,7 @@ describe "RbHex, #string_from_hex_string" do
         result = RbHex::string_from_hex_string("64")
         result.should == "d"
     end
-    
+
     it "returns the correct string 2" do
         result = RbHex::string_from_hex_string("646568")
         result.should == "deh"

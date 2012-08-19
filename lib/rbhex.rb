@@ -1,7 +1,9 @@
+# Class manages hex conversions to and from various types of
+# objects
 class RbHex
 
     # Public: Creates a byte array from a hex string.
-    # 
+    #
     # hex_string - the hex string to turn into a byte array
     #
     # Examples
@@ -18,7 +20,7 @@ class RbHex
         end
 
         # Turn the string into a sequence of pairs of characters
-        pairs = hex_string.scan /../ 
+        pairs = hex_string.scan /../
 
         # Map base16 conversion of the pairs
         return pairs.map{ |b| b.to_i(16) }
@@ -49,7 +51,7 @@ class RbHex
     #
     # Returns a string represented by the bytes of the hex string in ascii
     def self.string_from_hex_string(hex_string)
-        ba = RbHex::byte_array_from_hex_string(hex_string) 
+        ba = RbHex::byte_array_from_hex_string(hex_string)
         return ba.pack("c*")
     end
 
